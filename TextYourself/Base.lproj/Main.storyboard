@@ -17,8 +17,26 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="DRUNKIFY" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Pl7-Vx-Y8L">
+                                <rect key="frame" x="73" y="11" width="171" height="51"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Enter text here!" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="go2-60-5BR">
+                                <rect key="frame" x="20" y="79" width="277" height="236"/>
+                                <color key="backgroundColor" red="0.32752413555414545" green="0.3343386817180079" blue="0.46738862991333008" alpha="0.11980064655172414" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="How do you want to alter your text? " textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Qeb-2V-oa7">
+                                <rect key="frame" x="20" y="323" width="500" height="36"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kV1-Mv-pk4">
-                                <rect key="frame" x="261" y="65" width="80" height="43"/>
+                                <rect key="frame" x="211" y="501" width="80" height="43"/>
                                 <color key="backgroundColor" red="0.17147940397262573" green="0.1876792311668396" blue="0.66559833288192749" alpha="0.59574353448275863" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Send SMS">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
