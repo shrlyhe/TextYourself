@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TextYourself" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" text="DRUNKIFY" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Pl7-Vx-Y8L">
+                                <rect key="frame" x="200" y="63" width="171" height="51"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="go2-60-5BR">
+                                <rect key="frame" x="118" y="117" width="335" height="151"/>
+                                <color key="backgroundColor" red="0.32752413555414545" green="0.3343386817180079" blue="0.46738862991333008" alpha="0.11980064655172414" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" text="How do you want to alter your text? " textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Qeb-2V-oa7">
+                                <rect key="frame" x="25" y="414" width="500" height="36"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zQh-O6-a7E">
+                                <rect key="frame" x="194" y="466" width="162" height="30"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.096012931062068971" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <state key="normal" title="Politify">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="politifySend:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bLD-xD-fxH"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" text="What's your BAC?" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="X28-XC-2pN">
+                                <rect key="frame" x="25" y="282" width="500" height="36"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <slider opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="J0y-Mr-cdk">
+                                <rect key="frame" x="216" y="332" width="118" height="31"/>
+                                <connections>
+                                    <action selector="bloodAlcoholChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="nMP-Uz-Tut"/>
+                                </connections>
+                            </slider>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="0.0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6SE-42-aoM">
+                                <rect key="frame" x="248" y="370" width="54" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7vF-bn-6Je">
+                                <rect key="frame" x="194" y="518" width="162" height="33"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.099353448303448277" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <state key="normal" title="Anger Translator">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="angerSend:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Adz-F4-qhJ"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="zQh-O6-a7E" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="93I-OU-m7i"/>
+                            <constraint firstItem="6SE-42-aoM" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Pku-ZM-LTr"/>
+                            <constraint firstItem="X28-XC-2pN" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="QQu-t1-Swd"/>
+                            <constraint firstItem="go2-60-5BR" firstAttribute="top" secondItem="Pl7-Vx-Y8L" secondAttribute="bottom" constant="18" id="QgX-Aa-VLf"/>
+                            <constraint firstItem="J0y-Mr-cdk" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Zzv-dp-FgP"/>
+                            <constraint firstItem="7vF-bn-6Je" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="iJm-GK-RSB"/>
+                            <constraint firstItem="go2-60-5BR" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="sPs-4S-PmI"/>
+                            <constraint firstItem="Qeb-2V-oa7" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="uLn-SA-61B"/>
+                            <constraint firstItem="Pl7-Vx-Y8L" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="wrI-gX-Xlq"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="slider" destination="J0y-Mr-cdk" id="NkX-K3-A2l"/>
+                        <outlet property="sliderLabel" destination="6SE-42-aoM" id="kcw-1C-59z"/>
+                        <outlet property="textMessage" destination="go2-60-5BR" id="13z-b7-8FQ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="12" y="-612"/>
+        </scene>
+    </scenes>
+</document>

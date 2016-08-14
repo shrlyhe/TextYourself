@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "E4A5D382298BE30EF2ACC7897464249BE4FC1833",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "E4A5D382298BE30EF2ACC7897464249BE4FC1833" : 0,
+    "392CC98A1EBC255D479FD38F61AAA45B477EA29A" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "85130DA5-B589-4989-852C-221935EE4EC9",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "E4A5D382298BE30EF2ACC7897464249BE4FC1833" : "TextYourself-storyboardChange\/",
+    "392CC98A1EBC255D479FD38F61AAA45B477EA29A" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "TextYourself",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "TextYourself.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/shrlyhe\/TextYourself.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "392CC98A1EBC255D479FD38F61AAA45B477EA29A"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/shrlyhe\/TextYourself1.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E4A5D382298BE30EF2ACC7897464249BE4FC1833"
+    }
+  ]
+}
